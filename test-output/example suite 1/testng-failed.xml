@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [example suite 1]">
+  <parameter name="Username" value="aparna.guttula"/>
+  <parameter name="Password" value="sample"/>
+  <test name="GroupRun(failed)">
+    <parameter name="Username" value="aparna.guttula"/>
+    <parameter name="Password" value="sample"/>
+    <classes>
+      <class name="SeleniumPractice.ParameterizedTest">
+        <methods>
+          <include name="parameterizedTest"/>
+        </methods>
+      </class> <!-- SeleniumPractice.ParameterizedTest -->
+    </classes>
+  </test> <!-- GroupRun(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->
